@@ -22,12 +22,12 @@ int	main(void)
 
 			if (guess > 10)
 			{	
-				printf ("\nSorry, %d is wrong, my number is less than that", guess);
+				printf ("\nSorry, %d is wrong, my number is less than that\n", guess);
 					 
 			}
 			else if (guess < 10)
 			{
-				printf( "\nSorry, %d is wrong, my number is more than that", guess);
+				printf( "\nSorry, %d is wrong, my number is more than that\n", guess);
 				
 			}
 			else 
@@ -40,5 +40,9 @@ int	main(void)
 		}
 		
 	}
-	
+	while (tries == 0)
+	{
+		printf("\n\nYou are running our of trial. Please try again!\n");
+		break;
+	}
 }

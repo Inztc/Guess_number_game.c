@@ -32,7 +32,7 @@ int	main(void)
 			}
 			else 
 			{
-				//guess = 10;
+				
 				printf("Congratulations. You guesses it right!\n");
 				break;
 			}
@@ -40,5 +40,5 @@ int	main(void)
 		}
 		
 	}
-	//printf("\n\nYou are running out of trial. You lose!\n");
+	
 }
